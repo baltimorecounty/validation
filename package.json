@@ -1,0 +1,24 @@
+{
+  "name": "baltimorecounty-validation",
+  "version": "1.0.0",
+  "description": "Javascript validation helpers",
+  "main": "index.js",
+  "author": {
+    "name": "Baltimore County Developers",
+    "email": "jepowell@baltimorecountymd.gov",
+    "url": "https://github.com/baltimorecounty"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baltimorecounty/validation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baltimorecounty/validation/issues"
+  },
+  "homepage": "https://github.com/baltimorecounty/validation",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Baltimore County Developers",
+  "license": "ISC"
+}
