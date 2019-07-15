@@ -13,7 +13,8 @@
   },
   "homepage": "https://github.com/baltimorecounty/validation",
   "scripts": {
-    "test": "jest"
+	"test": "jest",
+	"publish": "npm publish --access public"
   },
   "license": "ISC",
   "devDependencies": {
