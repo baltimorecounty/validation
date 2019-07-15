@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "Javascript validation helpers",
   "main": "index.js",
-  "author": {
-    "name": "Baltimore County Developers",
-    "email": "jepowell@baltimorecountymd.gov",
-    "url": "https://github.com/baltimorecounty"
-  },
+  "author": "Baltimore County Developers",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/baltimorecounty/validation.git"
@@ -17,8 +13,13 @@
   },
   "homepage": "https://github.com/baltimorecounty/validation",
   "scripts": {
-    "test": "npm test"
+    "test": "jest"
   },
-  "author": "Baltimore County Developers",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0"
+  }
 }
