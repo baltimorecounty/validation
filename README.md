@@ -5,7 +5,15 @@ Javascript validation helpers.
 ## Available Methods
 
 ### IsPhoneNumberValid
-**Valid formats**
+
+#### Usage
+```javascript
+import { IsPhoneNumberValid } from '@baltimorecounty/validation';
+
+const isPhoneNumberValid = IsPhoneNumberValid("(111) 444-4444");
+```
+
+#### Valid Formats
 
 - (123)456-7890
 - (123) 456-7890
@@ -17,17 +25,6 @@ Javascript validation helpers.
 
 ```js
 npm i --save @baltimorecounty/validation
-```
-
-## Usage
-
-### Valid Formats
-
-
-```javascript
-import { IsPhoneNumberValid } from '@baltimorecounty/validation';
-
-const isPhoneNumberValid = IsPhoneNumberValid("(111) 444-4444");
 ```
 
 ## Testing
