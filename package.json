@@ -1,6 +1,6 @@
 {
-  "name": "baltimorecounty-validation",
-  "version": "1.0.0",
+  "name": "@baltimorecounty/validation",
+  "version": "1.0.1",
   "description": "Javascript validation helpers",
   "main": "index.js",
   "author": "Baltimore County Developers",
